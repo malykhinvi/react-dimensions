@@ -18,7 +18,7 @@
     "url": "git+https://github.com/digidem/react-dimensions.git"
   },
   "files": [
-    "index.js"
+    "index.jsx"
   ],
   "keywords": [
     "react",
