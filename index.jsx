@@ -82,7 +82,7 @@ export default function Dimensions ({ getHeight = defaultGetHeight, getWidth = d
     return class DimensionsHOC extends React.Component {
       // ES7 Class properties
       // http://babeljs.io/blog/2015/06/07/react-on-es6-plus/#property-initializers
-      state = {}
+      state = {};
 
       // Using arrow functions and ES7 Class properties to autobind
       // http://babeljs.io/blog/2015/06/07/react-on-es6-plus/#arrow-functions
