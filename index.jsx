@@ -95,7 +95,7 @@ export default function Dimensions ({ getHeight = defaultGetHeight, getWidth = d
           containerWidth: getWidth(container),
           containerHeight: getHeight(container)
         })
-      }
+      };
 
       onResize = () => {
         if (this.rqf) return
@@ -103,7 +103,7 @@ export default function Dimensions ({ getHeight = defaultGetHeight, getWidth = d
           this.rqf = null
           this.updateDimensions()
         })
-      }
+      };
 
       componentDidMount () {
         this.updateDimensions()
